@@ -24,10 +24,12 @@ export default function NavBar() {
     if (isOpen)
       return (
         <nav className=" flex flex-col justify-around items-center pb-[20px] w-full h-[200px] laptop:hidden">
-          <Link href="/#about" onClick={toggleMenu}>
-            <div className="cursor-pointer text-textM hover:border-b-2 ">
-              A propos
-            </div>
+          <Link
+            href="/#about"
+            onClick={toggleMenu}
+            className="cursor-pointer text-textM hover:border-b-2 "
+          >
+            A propos
           </Link>
           <Link
             href="/#competences"
