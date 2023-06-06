@@ -25,21 +25,21 @@ export default function NavBar() {
       return (
         <nav className=" flex flex-col justify-around items-center pb-[20px] w-full h-[200px] laptop:hidden">
           <Link
-            href="#a propos"
+            href="/#about"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             A propos
           </Link>
           <Link
-            href="#competences"
+            href="/#competences"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Compétences
           </Link>
           <Link
-            href="#projets"
+            href="/#projets"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >

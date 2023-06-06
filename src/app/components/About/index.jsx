@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <section
-      id="a propos"
+      id="about"
       className="flex flex-col items-center justify-center bg-first-color"
     >
       <div className=" flex flex-col items-center mx-[10%] pt-[70px] pb-[100px] laptop:items-start">
