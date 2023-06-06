@@ -1,0 +1,28 @@
+
+[
+	{
+		"id": "1",
+		"title": "Kasa",
+		"image": "/Images/Kasa.webp",
+		"description": "Projet d'un site de reservation de logement en ligne. Ce site a été réalisé dans le cadre d'un projet OpenClassrooms.",
+		"languages": [{	"type":"REACT",
+						"color":"react-color"},
+					{	"type":"CSS",
+						"color":"css-color"}],
+        "github_pages":"https://chuperjp.github.io/kasa/",
+        "repository":"https://github.com/ChuperJP/kasa"
+	},
+    {
+		"id": "2",
+		"title": "Ohmyfood",
+		"image": "/Images/Ohmyfood.webp",
+		"description": "Site de commande de repas en ligne. Ce site a été réaliser dans le cadre d'un projet OpenClassrooms.",
+		"languages": [{	"type":"HTML",
+						"color":"html-color"},
+					{	"type":"SASS",
+						"color":"sass-color"}],
+        "github_pages":"https://chuperjp.github.io/Ohmyfood/",
+        "repository":"https://github.com/ChuperJP/Ohmyfood"
+	}
+
+]
