@@ -9,7 +9,7 @@ export default function Header() {
   ];
 
   return (
-    <section className="flex text-white bg-headerImg3 bg-cover bg-center">
+    <section className="flex text-white bg-[url('./Images/bgHeader3.webp')] bg-cover bg-center">
       <div className="w-full bg-first-color opacity-70 pb-[30px] ">
         <div className="flex flex-col mx-[10%] mt-[80px]">
           <div className="flex justify-center w-full laptop:justify-start">
