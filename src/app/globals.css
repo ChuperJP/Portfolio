@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish:wght@400;500&family=Work+Sans&display=swap');
+
+@layer components {
+    .input-wrapper {
+      @apply flex flex-col items-center gap-y-2 mb-[15px];
+    };
+  }
