@@ -1,3 +1,7 @@
+// Link sert à la navigation
+// useRouter,  pour faire une bouton qui permet de changer de page
+// ces deux fonctions ne sont pas utilisés car ce type de routing bug sur GH pages
+
 "use client";
 import React from "react";
 import { useState } from "react";
