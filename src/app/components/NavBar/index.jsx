@@ -55,7 +55,7 @@ export default function NavBar() {
       <nav className="relative flex  justify-center items-center py-[30px] w-full laptop:py-[20px]">
         <div className=" hidden flex-row justify-around items-center w-1/2  laptop:flex">
           <Link
-            href="#a propos"
+            href="#about"
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             A propos
