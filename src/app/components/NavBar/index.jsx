@@ -16,7 +16,7 @@ export default function NavBar() {
   };
 
   const handleClickButton = () => {
-    router.push("/#contact");
+    router.push("/portfolio/#contact");
     toggleMenu();
   };
 
@@ -25,21 +25,21 @@ export default function NavBar() {
       return (
         <nav className=" flex flex-col justify-around items-center pb-[20px] w-full h-[200px] laptop:hidden">
           <Link
-            href="/#about"
+            href="/portfolio/#about"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             A propos
           </Link>
           <Link
-            href="/#competences"
+            href="/portfolio/#competences"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Compétences
           </Link>
           <Link
-            href="/#projets"
+            href="/portfolio/#projets"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
@@ -55,26 +55,26 @@ export default function NavBar() {
       <nav className="relative flex  justify-center items-center py-[30px] w-full laptop:py-[20px]">
         <div className=" hidden flex-row justify-around items-center w-1/2  laptop:flex">
           <Link
-            href="/#about"
+            href="/portfolio/#about"
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             A propos
           </Link>
           <Link
-            href="/#competences"
+            href="/portfolio/#competences"
             className="cursor-pointer text-textM hover:border-b-2"
           >
             Compétences
           </Link>
           <Link
-            href="/#projets"
+            href="/portfolio/#projets"
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Projets
           </Link>
           <Bouton
             children={"Contact"}
-            onClick={() => router.push("/#contact")}
+            onClick={() => router.push("/portfolio/#contact")}
           />
         </div>
         <div className="absolute right-10  laptop:hidden">
