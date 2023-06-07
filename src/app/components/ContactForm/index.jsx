@@ -5,16 +5,15 @@ import Bouton from "../Bouton";
 
 export default function ContactForm() {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_chuper_dev_gmail",
-        "contact_form",
+        process.env.EMAIL_JS_SERVICE,
+        process.env.EMAIL_JS_TEMPLATE,
         form.current,
-        "2s0f3x5iiKwmh-MKW"
+        process.env.EMAIL_JS_USER
       )
       .then(
         (result) => {
