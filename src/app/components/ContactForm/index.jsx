@@ -5,30 +5,31 @@ import Bouton from "../Bouton";
 
 export default function ContactForm() {
   const form = useRef();
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        process.env.EMAIL_JS_SERVICE,
-        process.env.EMAIL_JS_TEMPLATE,
-        form.current,
-        process.env.EMAIL_JS_USER
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     process.env.EMAIL_JS_SERVICE,
+    //     process.env.EMAIL_JS_TEMPLATE,
+    //     form.current,
+    //     process.env.EMAIL_JS_USER
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       console.log(result);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
   };
 
   return (
     <form
       ref={form}
-      onSubmit={sendEmail}
+      onSubmit={handleSubmit}
       className="bg-first-color rounded-[20px] pt-[30px] pb-[40px] px-[80px] mt-[80px] w-full max-w-[400px]"
     >
       <div className="flex flex-col items-center">
