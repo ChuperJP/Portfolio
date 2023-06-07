@@ -3,8 +3,9 @@ import React from "react";
 import { useState } from "react";
 // import Link from "next/Link";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import Bouton from "../Bouton";
+// import { useRouter } from "next/navigation";
+// import Bouton from "../Bouton";
+import LinkContact from "../LinkContact";
 import burger_menu_icon from "../../assets/burger-menu-white.png";
 import close_icon from "../../assets/close-icon-white.png";
 
@@ -15,10 +16,10 @@ export default function NavBar() {
     setIsOpen(!isOpen);
   };
 
-  const handleClickButton = () => {
-    router.push("/portfolio/#contact");
-    toggleMenu();
-  };
+  // const handleClickButton = () => {
+  //   router.push("/portfolio/#contact");
+  //   toggleMenu();
+  // };
 
   const menuIsOpen = () => {
     if (isOpen)
@@ -45,7 +46,8 @@ export default function NavBar() {
           >
             Projets
           </a>
-          <Bouton children={"Contact"} onClick={handleClickButton} />
+          <LinkContact onClick={toggleMenu} />
+          {/* <Bouton children={"Contact"} onClick={handleClickButton} /> */}
         </nav>
       );
   };
@@ -72,10 +74,11 @@ export default function NavBar() {
           >
             Projets
           </a>
-          <Bouton
+          <LinkContact onClick={toggleMenu} />
+          {/* <Bouton
             children={"Contact"}
             onClick={() => router.push("/portfolio/#contact")}
-          />
+          /> */}
         </div>
         <div className="absolute right-10  laptop:hidden">
           <Image
