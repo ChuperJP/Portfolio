@@ -15,7 +15,7 @@
 const nextConfig = {
   output: "export",
   // assetPrefix: assetPrefix,
-  // basePath: basePath,
+  basePath: "/portfolio",
   images: {
     unoptimized: true,
   },
