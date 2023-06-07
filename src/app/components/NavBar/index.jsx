@@ -61,13 +61,13 @@ export default function NavBar() {
             A propos
           </Link>
           <Link
-            href="#competences"
+            href="/#competences"
             className="cursor-pointer text-textM hover:border-b-2"
           >
             Compétences
           </Link>
           <Link
-            href="#projets"
+            href="/#projets"
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Projets
