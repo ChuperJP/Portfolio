@@ -1,6 +1,7 @@
 // Link sert à la navigation
 // useRouter,  pour faire une bouton qui permet de changer de page
 // ces deux fonctions ne sont pas utilisés car ce type de routing bug sur GH pages
+// les hrefs sont sous ce format "/portfolio/#about" et non juste "/#about" pour fonctionner avec GH pages, ils ne fonctionnent pas en "run dev"
 
 "use client";
 import React from "react";
