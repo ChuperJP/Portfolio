@@ -10,7 +10,7 @@ import burger_menu_icon from "../../assets/burger-menu-white.png";
 import close_icon from "../../assets/close-icon-white.png";
 
 export default function NavBar() {
-  const router = useRouter();
+  // const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
