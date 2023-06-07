@@ -1,9 +1,36 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Bouton from "../Bouton";
 
 export default function ContactForm() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_chuper_dev_gmail",
+        "contact_form",
+        form.current,
+        "2s0f3x5iiKwmh-MKW"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
-    <form className="bg-first-color rounded-[20px] pt-[30px] pb-[40px] px-[80px] mt-[80px] w-full max-w-[400px]">
+    <form
+      ref={form}
+      onSubmit={sendEmail}
+      className="bg-first-color rounded-[20px] pt-[30px] pb-[40px] px-[80px] mt-[80px] w-full max-w-[400px]"
+    >
       <div className="flex flex-col items-center">
         <div className="input-wrapper">
           <label htmlFor="name" className="text-white text-textM">
@@ -12,6 +39,7 @@ export default function ContactForm() {
           <input
             type="text"
             id="name"
+            name="user_name"
             required
             className="rounded-[10px] text-first-color"
           />
@@ -23,6 +51,7 @@ export default function ContactForm() {
           <input
             type="email"
             id="email"
+            name="user_email"
             required
             className="rounded-[10px] text-first-color"
           />
@@ -39,7 +68,7 @@ export default function ContactForm() {
             className="rounded-[10px] text-first-color"
           ></textarea>
         </div>
-        <Bouton children={"Envoyer"} />
+        <Bouton children={"Envoyer"} type={"submit"} />
       </div>
     </form>
   );
