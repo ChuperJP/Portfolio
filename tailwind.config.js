@@ -15,7 +15,7 @@ module.exports = {
         "first-color": "#082570",
         "second-color": "#2A3E70",
         "third-color": "#FAFAFA",
-        "fourth-color": "#5A85F2",
+        "fourth-color": "#6590F6",
         "html-color": "#F97316",
         "react-color": "#38BDF8",
         "css-color": "#2563EB",
