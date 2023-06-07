@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import Link from "next/link";
+// import Link from "next/Link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Bouton from "../Bouton";
@@ -24,27 +24,27 @@ export default function NavBar() {
     if (isOpen)
       return (
         <nav className=" flex flex-col justify-around items-center pb-[20px] w-full h-[200px] laptop:hidden">
-          <Link
+          <a
             href="/portfolio/#about"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             A propos
-          </Link>
-          <Link
+          </a>
+          <a
             href="/portfolio/#competences"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Compétences
-          </Link>
-          <Link
+          </a>
+          <a
             href="/portfolio/#projets"
             onClick={toggleMenu}
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Projets
-          </Link>
+          </a>
           <Bouton children={"Contact"} onClick={handleClickButton} />
         </nav>
       );
@@ -54,24 +54,24 @@ export default function NavBar() {
     <div className="fixed z-10 w-full  bg-first-color text-white">
       <nav className="relative flex  justify-center items-center py-[30px] w-full laptop:py-[20px]">
         <div className=" hidden flex-row justify-around items-center w-1/2  laptop:flex">
-          <Link
+          <a
             href="/portfolio/#about"
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             A propos
-          </Link>
-          <Link
+          </a>
+          <a
             href="/portfolio/#competences"
             className="cursor-pointer text-textM hover:border-b-2"
           >
             Compétences
-          </Link>
-          <Link
+          </a>
+          <a
             href="/portfolio/#projets"
             className="cursor-pointer text-textM hover:border-b-2 "
           >
             Projets
-          </Link>
+          </a>
           <Bouton
             children={"Contact"}
             onClick={() => router.push("/portfolio/#contact")}
