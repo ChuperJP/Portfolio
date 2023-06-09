@@ -22,7 +22,7 @@ export default function Card({ title, description, image, languages }) {
               <Badges
                 key={language.type}
                 text={language.type}
-                classname={language.color}
+                style={language.color}
               />
             );
           })}
