@@ -6,7 +6,7 @@ export default function Header() {
   const infos = [
     { id: "1", type: "Nom", text: "Jean-Patrick Collet" },
     { id: "2", type: "Localisation", text: "Île-de-France, France" },
-    { id: "3", type: "E-mail", text: "chuper.dev@mail.com" },
+    { id: "3", type: "E-mail", text: "chuper.dev@gmail.com" },
   ];
 
   return (
