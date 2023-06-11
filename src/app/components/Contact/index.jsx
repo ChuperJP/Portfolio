@@ -18,7 +18,7 @@ export default function Contact() {
             par mail ou via le formulaire. N’hestiez pas à regarder mon Github !
           </p>
           <div className="flex flex-row items-center gap-[80px] pt-[50px] mb-[40px] tablet:[80px] ">
-            <a href="mailto:chuper.dev@gmx.fr" className="hover:scale-110">
+            <a href="mailto:chuper.dev@gmail.com" className="hover:scale-110">
               <Image
                 src={enveloppe_icon}
                 alt="mail to"
