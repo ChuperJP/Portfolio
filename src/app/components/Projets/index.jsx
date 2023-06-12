@@ -18,6 +18,7 @@ export default function Projets() {
             <a
               key={projet.id}
               href={projet.github_pages}
+              target="_blank"
               className="cursor-pointer mt-[40px] hover:shadow-xl hover:shadow-first-color rounded-[20px]"
             >
               <article>
