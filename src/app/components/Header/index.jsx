@@ -12,9 +12,11 @@ export default function Header() {
   return (
     <section
       className="flex text-white  bg-cover bg-center"
-      style={{ backgroundImage: `url('Images/bgHeader3.webp')` }}
+      style={{
+        background: `linear-gradient(0deg, #08257070, #08257070), url('Images/bgHeader3.webp')`,
+      }}
     >
-      <div className="w-full bg-first-color opacity-70 pb-[30px] ">
+      <div className="w-full pb-[30px] ">
         <div className="flex flex-col mx-[10%] mt-[80px]">
           <div className="flex justify-center w-full laptop:justify-start">
             <h1 className="font-montserrat font-semibold text-titleS max-w-[450px] w-full laptop:text-H1 tablet:text-title">
