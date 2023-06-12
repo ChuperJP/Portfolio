@@ -11,9 +11,9 @@ export default function Header() {
 
   return (
     <section
-      className="flex text-white  bg-cover bg-center"
+      className="flex text-white  bg-cover"
       style={{
-        background: `linear-gradient(0deg, rgba(8,37,112,0.7), rgba(8,37,112,0.7)), url('Images/bgHeader3.webp')`,
+        background: `linear-gradient(0deg, rgba(8,37,112,0.7), rgba(8,37,112,0.7)), url('Images/bgHeader3.webp') center`,
       }}
     >
       <div className="w-full pb-[30px] ">
