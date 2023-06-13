@@ -21,16 +21,6 @@ module.exports = {
         "css-color": "#2563EB",
         "sass-color": "#EC4899",
       },
-
-      fontSize: {
-        H1: "48px",
-        title: "40px",
-        titleS: "32px",
-        textL: "24px",
-        textM: "16px",
-        textS: "12px",
-        textXS: "8px",
-      },
       screens: {
         tablet: "640px",
         // => @media (min-width: 640px) { ... }
