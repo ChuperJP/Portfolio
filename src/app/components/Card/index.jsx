@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import projets_data from "../../data.json/projets_data.json";
 import Badges from "../Badges";
 
 export default function Card({ title, description, image, languages }) {

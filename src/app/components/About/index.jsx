@@ -6,7 +6,7 @@ export default function About() {
       id="about"
       className="flex flex-col items-center justify-center bg-first-color"
     >
-      <div className=" flex flex-col items-center mx-[10%] pt-[70px] pb-[100px] laptop:items-start">
+      <div className="flex flex-col items-center mx-[10%] pt-[70px] pb-[100px] laptop:items-start">
         <h2 className="font-montserrat font-semibold text-titleS text-white mb-[80px] laptop:text-title">
           A propos
         </h2>
