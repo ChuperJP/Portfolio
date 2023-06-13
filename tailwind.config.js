@@ -21,13 +21,7 @@ module.exports = {
         "css-color": "#2563EB",
         "sass-color": "#EC4899",
       },
-      backgroundImage: {
-        headerImg1: "url('/Images/bgHeader.webp')",
-        headerImg2: "url('/Images/bgHeader2.webp')",
-        headerImg3: "url('/Images/bgHeader3.webp')",
-        headerImg4: "url('/Images/bgHeader4.webp')",
-        headerImg5: "url('/Images/bgHeader5.webp')",
-      },
+
       fontSize: {
         H1: "48px",
         title: "40px",

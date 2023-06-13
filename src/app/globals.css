@@ -6,6 +6,6 @@
 
 @layer components {
     .input-wrapper {
-      @apply flex flex-col items-center gap-y-2 mb-[15px];
-    };
+      @apply flex flex-col items-center gap-y-2 mb-[15px]
+    }
   }

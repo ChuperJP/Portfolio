@@ -58,7 +58,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="fixed z-10 w-full  bg-first-color text-white">
+    <div className="fixed z-10 w-full  bg-first-color text-white font-montserrat font-semibold">
       <nav className="relative flex  justify-center items-center py-[30px] w-full laptop:py-[20px]">
         <div className=" hidden flex-row justify-around items-center w-1/2  laptop:flex">
           <a
