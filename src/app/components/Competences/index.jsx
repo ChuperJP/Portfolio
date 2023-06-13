@@ -41,7 +41,7 @@ export default function Competences() {
               <Image src={js_icon} alt="js icon" width={70} height={100} />
             </motion.div>
             <motion.div
-              className="flex flex-row justify-around  mt-[80px] w-full laptop:mt-0 laptop:w-1/2"
+              className="flex flex-row justify-around mt-[80px] w-full laptop:mt-0 laptop:w-1/2"
               initial="hidden"
               animate={isInView ? "visible" : "hidden"}
               transition={{ delay: 0.6, duration: 0.5 }}

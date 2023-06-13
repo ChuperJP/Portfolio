@@ -29,7 +29,7 @@ export default function NavBar() {
   const menuIsOpen = () => {
     if (isOpen)
       return (
-        <nav className=" flex flex-col justify-around items-center pb-[20px] w-full h-[200px] laptop:hidden">
+        <nav className="flex flex-col justify-around items-center pb-[20px] w-full h-[200px] laptop:hidden">
           <a
             href="/portfolio/#about"
             onClick={toggleMenu}
@@ -58,9 +58,9 @@ export default function NavBar() {
   };
 
   return (
-    <div className="fixed z-10 w-full  bg-first-color text-white font-montserrat font-semibold">
+    <div className="fixed z-10 w-full bg-first-color text-white font-montserrat font-semibold">
       <nav className="relative flex  justify-center items-center py-[30px] w-full laptop:py-[20px]">
-        <div className=" hidden flex-row justify-around items-center w-1/2  laptop:flex">
+        <div className="hidden flex-row justify-around items-center w-1/2 laptop:flex">
           <a
             href="/portfolio/#about"
             className="cursor-pointer text-textM hover:border-b-2"
@@ -85,7 +85,7 @@ export default function NavBar() {
             onClick={() => router.push("/portfolio/#contact")}
           /> */}
         </div>
-        <div className="absolute right-10  laptop:hidden">
+        <div className="absolute right-10 laptop:hidden">
           <Image
             style={{ display: !isOpen ? "block" : "none" }}
             className="cursor-pointer"
