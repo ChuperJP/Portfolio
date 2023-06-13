@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <section
-      className="flex text-white  bg-cover"
+      className="flex text-white bg-cover"
       style={{
         background: `linear-gradient(0deg, rgba(8,37,112,0.7), rgba(8,37,112,0.7)), url('Images/bgHeader3.webp') center`,
       }}
@@ -23,9 +23,9 @@ export default function Header() {
               Developpeur web Front End
             </h1>
           </div>
-          <div className="flex justify-center mt-[20px] w-full laptop:justify-end ">
+          <div className="flex justify-center mt-[20px] w-full laptop:justify-end">
             <div className="flex flex-col items-center w-full max-w-[600px]">
-              <div className="box-border px-[20px] py-[30px] mb-[30px] border-2 border-fourth-color w-full ">
+              <div className="box-border px-[20px] py-[30px] mb-[30px] border-2 border-fourth-color w-full">
                 <ul>
                   {infos.map((info) => {
                     return (

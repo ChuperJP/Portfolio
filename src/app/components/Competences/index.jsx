@@ -23,12 +23,12 @@ export default function Competences() {
 
   return (
     <section id="competences" className=" bg-third-color">
-      <div className="flex flex-col items-center mx-[10%] pt-[70px] pb-[100px] ">
+      <div className="flex flex-col items-center mx-[10%] pt-[70px] pb-[100px]">
         <h2 className="font-montserrat font-semibold text-titleS mb-[80px] tablet:text-title">
           Competences
         </h2>
         <div ref={ref} className="flex flex-col items-center w-full">
-          <div className="flex flex-col items-center w-full laptop:flex-row ">
+          <div className="flex flex-col items-center w-full laptop:flex-row">
             <motion.div
               className="flex flex-row justify-around items-around w-full laptop:w-1/2"
               initial="hidden"

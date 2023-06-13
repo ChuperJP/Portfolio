@@ -33,21 +33,21 @@ export default function NavBar() {
           <a
             href="/portfolio/#about"
             onClick={toggleMenu}
-            className="cursor-pointer text-textM hover:border-b-2 "
+            className="cursor-pointer text-textM hover:border-b-2"
           >
             A propos
           </a>
           <a
             href="/portfolio/#competences"
             onClick={toggleMenu}
-            className="cursor-pointer text-textM hover:border-b-2 "
+            className="cursor-pointer text-textM hover:border-b-2"
           >
             Compétences
           </a>
           <a
             href="/portfolio/#projets"
             onClick={toggleMenu}
-            className="cursor-pointer text-textM hover:border-b-2 "
+            className="cursor-pointer text-textM hover:border-b-2"
           >
             Projets
           </a>
@@ -63,7 +63,7 @@ export default function NavBar() {
         <div className=" hidden flex-row justify-around items-center w-1/2  laptop:flex">
           <a
             href="/portfolio/#about"
-            className="cursor-pointer text-textM hover:border-b-2 "
+            className="cursor-pointer text-textM hover:border-b-2"
           >
             A propos
           </a>
@@ -75,7 +75,7 @@ export default function NavBar() {
           </a>
           <a
             href="/portfolio/#projets"
-            className="cursor-pointer text-textM hover:border-b-2 "
+            className="cursor-pointer text-textM hover:border-b-2"
           >
             Projets
           </a>

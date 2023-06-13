@@ -15,7 +15,7 @@ export default function Card({ title, description, image, languages }) {
         width={550}
         height={400}
       />
-      <div className="absolute bottom-0 flex flex-col items-start  justify-center w-full  bg-black/60 h-1/3 px-[30px] py-[20px] rounded-b-[20px] ">
+      <div className="absolute bottom-0 flex flex-col items-start  justify-center w-full  bg-black/60 h-1/3 px-[30px] py-[20px] rounded-b-[20px]">
         <div className="flex flex-row justify-end w-full">
           {languages.map((language) => {
             return (
