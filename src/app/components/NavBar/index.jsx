@@ -79,7 +79,7 @@ export default function NavBar() {
           >
             Projets
           </a>
-          <LinkContact onClick={toggleMenu} />
+          <LinkContact />
           {/* <Bouton
             children={"Contact"}
             onClick={() => router.push("/portfolio/#contact")}
