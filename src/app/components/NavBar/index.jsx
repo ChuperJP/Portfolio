@@ -51,7 +51,7 @@ export default function NavBar() {
           >
             Projets
           </a>
-          <div onClick={toggleMenu}>
+          <div onClick={toggleMenu} className="hover:scale-110">
             <LinkContact />
           </div>
 
