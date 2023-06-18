@@ -51,8 +51,8 @@ export default function NavBar() {
           >
             Projets
           </a>
-          <div>
-            <LinkContact onClick={toggleMenu} />
+          <div onClick={toggleMenu}>
+            <LinkContact />
           </div>
 
           {/* <Bouton children={"Contact"} onClick={handleClickButton} /> */}
