@@ -9,7 +9,7 @@ export default function About() {
   const displayAbout = {
     hidden: {
       opacity: 0,
-      x: -100,
+      x: -200,
     },
     visible: {
       opacity: 1,
@@ -37,7 +37,7 @@ export default function About() {
         <motion.div
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          transition={{ delay: 0.6, duration: 0.5 }}
+          transition={{ delay: 0.6, duration: 0.7 }}
           variants={displayAbout}
           className="font-mulish text-center text-textM text-white w-full tablet:text-textL laptop:w-2/3 laptop:text-start"
         >
