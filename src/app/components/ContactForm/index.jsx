@@ -61,9 +61,9 @@ export default function ContactForm() {
     <form
       ref={form}
       onSubmit={handleSubmit}
-      className="relative bg-first-color rounded-[20px] pt-[30px] pb-[40px] px-[80px] mt-[80px] w-full max-w-[400px] font-montserrat font-semibold"
+      className="relative bg-first-color rounded-[20px] pt-[30px] pb-[40px] px-[50px] mt-[80px] w-full max-w-[400px] font-montserrat font-semibold"
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-full max-w-[300px]">
         <div className="input-wrapper">
           <label htmlFor="name" className="text-white text-textM">
             Nom
@@ -92,7 +92,7 @@ export default function ContactForm() {
             className="rounded-[10px] text-first-color"
           />
         </div>
-        <div className="input-wrapper mb-[40px] ">
+        <div className="input-wrapper mb-[40px] w-full">
           <label htmlFor="message" className="text-white text-textM">
             Message
           </label>
@@ -105,7 +105,7 @@ export default function ContactForm() {
             onChange={(e) => setMessage(e.target.value)}
             rows="7"
             required
-            className="rounded-[10px] text-first-color"
+            className="rounded-[10px] text-first-color w-full"
           ></textarea>
         </div>
         <ReCAPTCHA
